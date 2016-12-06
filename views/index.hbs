@@ -1,0 +1,12 @@
+﻿<html>
+<body>
+    {{#if resp}}
+    <div style="color:red;">COMANDO ENVIADO</div>
+    {{/if}}
+    <form action="/send" method="post">
+        <fieldset>
+            <input type="submit" value="Send" />
+        </fieldset>
+    </form>
+</body>
+</html>
